@@ -7,7 +7,7 @@ This project is a Node.js application that scrapes IMDb's Top 250 movies list, c
 - **Web Scraping:** Scrapes IMDb's Top 250 movies, including movie titles, ranks, release years, and directors.
 - **Ranking Comparison:** Compares the current rankings with the previous scrape and tracks changes.
 - **Data Storage:** Saves the scraped and updated data to a JSON file, timestamped for historical tracking.
-- **Scheduling:** Automatically scrapes IMDb every 10 minutes using a cron job.
+- **Scheduling:** Automatically scrapes IMDb every midnight using a cron job.
 - **API Endpoints:** Provides endpoints to manually trigger a scrape and view the latest scrape results.
 
 ## Project Structure
