@@ -15,8 +15,7 @@ app.use('/api', scrapeRoutes);
 // Node-Cron job to run the scrape daily at midnight
 // '0 0 * * *' --> At 00:00 on every day-of-month
 // '*/10 * * * *' --> Every 10 minutes
-cron.schedule('*/7 * * * *', async () => {
-// cron.schedule('0 0 * * *', async () => {
+cron.schedule('0 0 * * *', async () => {
     console.log('Running scheduled scrape...');
     try {
         const movies = await scrapeAndSave();
