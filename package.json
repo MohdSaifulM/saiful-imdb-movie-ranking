@@ -1,0 +1,18 @@
+{
+  "name": "imdb-top-movies-ranking-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "puppeteer": "^23.2.1",
+    "uuid": "^10.0.0"
+  }
+}

@@ -1,0 +1,32 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore node modules
+node_modules/
+
+# Ignore logs
+*.log
+
+# Ignore the build folder
+/dist
+
+# Ignore .env files
+.env
+
+# Ignore IDE specific files
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.bak.*
+.vscode/
+*.code-workspace
+
+# Ignore data files
+data/*.json
+
+# Ignore OS generated files
+ehthumbs.db
+Desktop.ini
